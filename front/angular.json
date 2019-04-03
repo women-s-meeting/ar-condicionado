@@ -132,5 +132,10 @@
       }
     }
   },
-  "defaultProject": "ar-condicionado"
+  "defaultProject": "ar-condicionado",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
