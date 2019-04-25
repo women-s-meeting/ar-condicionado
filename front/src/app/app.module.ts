@@ -1,20 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AreaModel } from './shared/area.model';
+import { routing } from './app-routing.module';
+//import { AreaModel } from './shared/area.model';
 import { Floor3Component } from './floor3/floor3.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Floor3Component
+    Floor3Component,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AreaModel
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
